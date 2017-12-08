@@ -25,7 +25,7 @@ SECRET_KEY = 'f&gfzm)@4@qs$--x11+i79-w6cxe4+9rd4x2760n1@fl)h68-e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'jsc2167.github.io']
+ALLOWED_HOSTS = ['127.0.0.1', 'ariandjulia.pythonanywhere.com']
 
 
 # Application definition
