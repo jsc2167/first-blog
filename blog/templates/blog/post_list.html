@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>A+J</title>
+  </head>
+
+  <body>
+    <style>
+    p-one {
+      border-style: solid;
+      border-width: 5px;
+      border-color: white;
+      background-color: white;
+      border-radius: 5px;
+    }
+    </style>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Alice|Forum|Prata|Raleway');
+  	background-image:url("https://imgur.com/z5jv3tb.png");
+  	font-family: 'Spectral SC', 'Raleway', 'Vollkorn SC', 'Dancing Script';
+    </style>
+
+    <div>
+    <p class="p-one">{{ "page-title" }}</p>
+    </div>
+
+  	<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About Us</a></li>
+        		<li><a href="/hotels">Hotels</a></li>
+        		<li><a href="/registry">Registry</a></li>
+		        <li><a href="/rsvp">RSVP</a></li>
+			      <li><a href="/photos">Photos</a></li>
+    		</ul>
+		</nav>
+  			<div class="container">
+
+  			{{ content }}
+
+  			</div>
+
+  		<footer>
+  	    	<ul>
+  	       		<li style="font-family:georgia;"><a href="mailto:ariandjuliagetmarried@gmail.com">email</a></li>
+  			  </ul>
+  		</footer>
+  	</body>
+  </html>
